@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.NewsSection{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    top:3rem;
+}
+.newsRow{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.column{
+    width:25%;
+    max-width:25%;
+    padding:10px 10px;
+}
+
+@media screen and (max-width:800px){
+    .column{
+        width:50%;
+        max-width: 50%;;
+    }
+}
+@media screen and (max-width:600px){
+    .column{
+        width:100%;
+        max-width: 100%;;
+    }
+}
