@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-       <Navbar title='Nigga Balls'/>
+       <Navbar title='NewsApp'/>
        <Routes>
 
         <Route index element={<News key='general' category='general'/>} />
